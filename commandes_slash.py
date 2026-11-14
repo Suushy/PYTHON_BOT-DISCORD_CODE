@@ -50,10 +50,6 @@ async def serverinfo(interaction: discord.Interaction):
 async def piing(interaction: discord.Interaction):
     await interaction.response.send_message("Pong 🏓!")
 
-@bot.tree.command(name="ntm", description="tg fdp")
-async def ntm(interaction: discord.Interaction):
-    await interaction.response.send_message("ntm la pute, connard va")
-
 @bot.tree.command(name="say", description="Say your message")
 async def say(interaction: discord.Interaction, message: str):
     await interaction.response.send_message(message, ephemeral=True)
