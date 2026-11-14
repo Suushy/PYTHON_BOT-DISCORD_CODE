@@ -1,7 +1,7 @@
 import discord 
 from discord.ext import commands
 
-token = "TON TOKEN"
+token = "Your Token"
 
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
