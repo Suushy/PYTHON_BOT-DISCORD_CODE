@@ -1,6 +1,6 @@
 import discord
 
-token = "TON TOKEN"
+token = "Your Token"
 intents = discord.Intents.all()
 
 client = discord.Client(intents=intents)
